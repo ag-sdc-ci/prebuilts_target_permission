@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_headers_permission-x86_64-v2.so",
+		    "libdummy_headers_permission.so",
+		    "libdummy_permission_dev-x86_64-v2.so",
+		    "libdummy_permission_dev.so"
+	],
+	"visible": true
+}

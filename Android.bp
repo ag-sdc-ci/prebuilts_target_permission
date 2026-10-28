@@ -1,0 +1,23 @@
+// Auto-generated prebuilt APEX Blueprint for com.android.permission
+// Staged from APEX package: permission (com.android.permission)
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+prebuilt_apex {
+    name: "com.android.permission",
+    apex_name: "com.android.permission",
+    source_apex_name: "com.android.permission",
+    arch: {
+        arm64: {
+            src: "com.android.permission.apex",
+        },
+        x86_64: {
+            src: "com.android.permission.apex",
+        },
+    },
+    filename: "com.android.permission.apex",
+    prefer: true,
+    installable: true,
+}

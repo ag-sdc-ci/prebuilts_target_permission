@@ -1,0 +1,6 @@
+shadow prebuilt repo: permission (target)
+  upstream: https://android.googlesource.com/platform/packages/modules/Permission
+  api-level: 34 (branch 34-20261028)
+  blobs: com.android.permission.apex
+  payload: flattened root include/, lib64/ + sanitized Android.bp
+  date: 2026-10-28
